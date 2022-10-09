@@ -45,7 +45,9 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.pnl_students = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.pnl_students = new System.Windows.Forms.FlowLayoutPanel();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -228,12 +230,31 @@
             this.label3.TabIndex = 0;
             this.label3.Text = "Student\'s Full Name";
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button1.Location = new System.Drawing.Point(961, 37);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(127, 38);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "Add lesson topic";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // pnl_students
             // 
-            this.pnl_students.Location = new System.Drawing.Point(12, 145);
+            this.pnl_students.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnl_students.Location = new System.Drawing.Point(0, 139);
             this.pnl_students.Name = "pnl_students";
-            this.pnl_students.Size = new System.Drawing.Size(1181, 293);
-            this.pnl_students.TabIndex = 7;
+            this.pnl_students.Size = new System.Drawing.Size(1205, 311);
+            this.pnl_students.TabIndex = 0;
+            // 
+            // panel2
+            // 
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1205, 139);
+            this.panel2.TabIndex = 9;
             // 
             // Form1
             // 
@@ -242,6 +263,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1205, 450);
             this.Controls.Add(this.pnl_students);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.radioButton3);
             this.Controls.Add(this.richTextBox1);
@@ -249,6 +271,7 @@
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.panel2);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "LogBook";
@@ -279,6 +302,8 @@
         private Label label9;
         private PictureBox pictureBox1;
         private Label lbl_diaCount;
-        private Panel pnl_students;
+        private Button button1;
+        private FlowLayoutPanel pnl_students;
+        private Panel panel2;
     }
 }

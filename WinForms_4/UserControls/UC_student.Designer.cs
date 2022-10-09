@@ -302,6 +302,7 @@
             this.pBox_dia1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pBox_dia1.TabIndex = 1;
             this.pBox_dia1.TabStop = false;
+            this.pBox_dia1.Click += new System.EventHandler(this.pBox_dia1_Click);
             // 
             // pBox_dia3
             // 
@@ -312,6 +313,7 @@
             this.pBox_dia3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pBox_dia3.TabIndex = 2;
             this.pBox_dia3.TabStop = false;
+            this.pBox_dia3.Click += new System.EventHandler(this.pBox_dia3_Click);
             // 
             // pBox_dia2
             // 
@@ -322,6 +324,7 @@
             this.pBox_dia2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pBox_dia2.TabIndex = 3;
             this.pBox_dia2.TabStop = false;
+            this.pBox_dia2.Click += new System.EventHandler(this.pBox_dia2_Click);
             // 
             // pBox_cancelDia
             // 
@@ -332,6 +335,7 @@
             this.pBox_cancelDia.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pBox_cancelDia.TabIndex = 4;
             this.pBox_cancelDia.TabStop = false;
+            this.pBox_cancelDia.Click += new System.EventHandler(this.pBox_cancelDia_Click);
             // 
             // pBox_comment
             // 
@@ -342,6 +346,7 @@
             this.pBox_comment.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pBox_comment.TabIndex = 0;
             this.pBox_comment.TabStop = false;
+            this.pBox_comment.Click += new System.EventHandler(this.pBox_addComment_Click);
             // 
             // txt_comment
             // 
@@ -361,6 +366,7 @@
             this.btn_addComment.Text = "Add";
             this.btn_addComment.UseVisualStyleBackColor = true;
             this.btn_addComment.Visible = false;
+            this.btn_addComment.Click += new System.EventHandler(this.btn_addComment_Click);
             // 
             // lbl_comment
             // 

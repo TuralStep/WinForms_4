@@ -63,6 +63,16 @@ namespace WinForms_4.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap femaleAvatar {
+            get {
+                object obj = ResourceManager.GetObject("femaleAvatar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_comments_48 {
             get {
                 object obj = ResourceManager.GetObject("icons8_comments_48", resourceCulture);
@@ -96,6 +106,16 @@ namespace WinForms_4.Properties {
         internal static System.Drawing.Bitmap icons8_gem_stone_48__1_ {
             get {
                 object obj = ResourceManager.GetObject("icons8_gem_stone_48__1_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap maleAvatar {
+            get {
+                object obj = ResourceManager.GetObject("maleAvatar", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
